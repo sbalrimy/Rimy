@@ -1,0 +1,2 @@
+# Rimy
+Base WP Theme
