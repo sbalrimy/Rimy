@@ -1,0 +1,261 @@
+/*
+Theme Name: Rimy
+Theme URI: github.com/sbalrimy/Rimy
+Author: YMIR Labs
+Author URI: http://ymir.cl
+Description: Tema básico para proyecos WEB. Creado por George Shazkho bajo el ala de YMIR Labs.
+Version: 0.0.1
+License: Apache 2.0
+License URI: http://www.apache.org/licenses/LICENSE-2.0
+Text Domain: rimy
+Domain Path: /languages/
+Tags: rimy
+
+Tema construido con Bootstrap 3.3.6, jQuery 1.12.1 y FontAwesome 4.5.0
+
+*/
+
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 0.8em;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.wrap {
+    width: 100%;
+}
+
+.space-15 { width: 100%; height: 15px; }
+.space-30 { width: 100%; height: 30px; }
+
+.btn-loco {
+    color: #FFFFFF;
+    background-color: #6C6C6C;
+    border-color: #6C6C6C;
+}
+
+.btn-loco:hover,
+.btn-loco:focus,
+.btn-loco:active,
+.btn-loco.active,
+.open .dropdown-toggle.btn-loco {
+    color: #FFFFFF;
+    background-color: #4C4C4C;
+    border-color: #6C6C6C;
+}
+
+.btn-loco:active,
+.btn-loco.active,
+.open .dropdown-toggle.btn-loco {
+    background-image: none;
+}
+
+.btn-loco.disabled,
+.btn-loco[disabled],
+fieldset[disabled] .btn-loco,
+.btn-loco.disabled:hover,
+.btn-loco[disabled]:hover,
+fieldset[disabled] .btn-loco:hover,
+.btn-loco.disabled:focus,
+.btn-loco[disabled]:focus,
+fieldset[disabled] .btn-loco:focus,
+.btn-loco.disabled:active,
+.btn-loco[disabled]:active,
+fieldset[disabled] .btn-loco:active,
+.btn-loco.disabled.active,
+.btn-loco[disabled].active,
+fieldset[disabled] .btn-loco.active {
+    background-color: #6C6C6C;
+    border-color: #6C6C6C;
+}
+
+.btn-loco .badge {
+    color: #6C6C6C;
+    background-color: #FFFFFF;
+}
+
+
+/* - - - HEADER - - - - - - - */
+
+.header {
+    background-color: #ed6448;
+    margin: 0;
+}
+
+.header .inner {
+    margin: 0 auto;
+}
+
+/* Topbar */
+
+.header .inner .topbar {
+    height: 100px;
+    padding: 15px 0;
+}
+
+.header .inner .topbar .brand {
+    float: left;
+}
+
+.header .inner .topbar .menu {
+    float: right;
+    font-size: 18px;
+    text-transform: uppercase;
+    height: 60px;
+    margin: 0;
+    line-height: 60px;
+}
+
+.header .inner .topbar .menu li {
+    list-style: none;
+    display: inline-block;
+    color: white;
+    margin-left: 30px;
+}
+
+/* Slider */
+
+.header .inner .slider {
+    margin-top: 90px;
+    margin-bottom: 150px;
+}
+
+.header .inner .slider .title {
+    font-size: 36px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.header .inner .slider .subtitle {
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+}
+
+
+/* - - - CONTENT - - - - - - - - - - */
+
+.content {
+    margin-top: 5px;
+}
+
+/* Boxes */
+
+.content .title {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: #000000;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.content .boxes {
+    padding-bottom: 40px;
+}
+
+.content .boxes .title,
+.content .boxes .subtitle {
+    background-color: #f8f8f8;
+}
+
+
+.content .boxes .title {
+    margin-top: 0;
+    padding-top: 50px;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #202020;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.content .boxes .subtitle {
+    padding-top: 20px;
+    padding-bottom: 100px;
+    font-size: 13px;
+    font-weight: 300;
+    color: #a5ac9c;
+    text-align: center;
+}
+
+.content .boxes .image {
+    height : 200px;
+    background-color: #929292;
+}
+
+/* About us */
+
+.about {
+    background-color: #f9f9f9;
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+.about .inner .title {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: #000000;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.about .inner .subtitle {
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #909090;
+    text-align: center;
+}
+
+
+/* - - - FOOTER - - - - - - - - - - */
+
+.footer {
+    background-color: #ed6448;
+    margin: 0;
+    padding-top: 60px;
+}
+
+.footer .inner .title {
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.footer .inner .subtitle {
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+}
+
+.footer .inner .form {
+    margin-top: 30px;
+}
+
+.footer .inner .form .btn {
+    width: 100%;
+}
+
+/* Last line
