@@ -1,0 +1,23 @@
+.slider {
+    padding-top: 90px;
+    padding-bottom: 150px;
+    background-color: #ed6448;
+}
+
+.slider .title {
+    font-size: 36px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.slider .subtitle {
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+}

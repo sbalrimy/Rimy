@@ -2,19 +2,27 @@
 
 include_once 'inc/constants.php';
 
-function rimy_header_tag( $type, $url )
-{
-    if( $type == 'css' ) {
-        echo str_replace('%URL%', $url, PATTERN_STYLE);
+/**
+ * Generates a single header tag.
+ *
+ * @param string $type Tag type. 'css' for a link tag and 'js' for a script tag.
+ * @param string $url Location of the resource.
+ */
+function rimy_header_tag ( $type, $url ) {
+    if ( $type == 'css' ) {
+        echo str_replace ('%URL%', $url, PATTERN_STYLE );
     } elseif ( $type == 'js' ) {
-        echo str_replace('%URL%', $url, PATTERN_SCRIPT);
+        echo str_replace( '%URL%', $url, PATTERN_SCRIPT );
     }
     echo "\n";
 }
 
 
-function rimy_load_lib ()
-{
+/**
+ * Creates a set of import headers. It receives any amount of parameters, but only checks for 'jquery', 'bootstrap'
+ * and 'fontawesome'.
+ */
+function rimy_load_lib () {
     $libs = func_get_args();
 
     if ( in_array( 'jquery', $libs ) || in_array( 'bootstrap', $libs ) ) {
@@ -30,10 +38,32 @@ function rimy_load_lib ()
 
 }
 
+function the_breadcrumb () {
+    if (!is_home()) {
+        echo '<div class="container-fluid breadcrumb-row"><ol class="breadcrumb container">';
+        echo '<li><a href="' . home_url() . '">';
+        bloginfo('name');
+        echo '</a></li>';
+        if (is_category() || is_single()) {
+            echo '<li><a href="#">Blog</a></li>';
+            if (is_single()) {
+                echo '<li class="active">';
+                the_title();
+                echo '</li>';
+            }
+        } elseif (is_page()) {
+            echo '<li class="active">';
+            echo the_title();
+            echo '</li>';
+        }
+        echo '</ol></div>';
+    }
+}
 
 
 
-/**
+
+        /**
  * Adds the individual sections, settings, and controls to the theme customizer
  */
 function theme_customizer( $wp_customize ) {

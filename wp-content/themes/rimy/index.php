@@ -1,26 +1,10 @@
 <?php get_header(); ?>
-
+<?php get_template_part('template-parts/slider') ?>
     <div class="content container">
         <div class="row">
             <div class="title">Nuestros trabajos</div>
         </div>
-        <div class="row boxes">
-            <div class="box1 col-sm-4">
-                <div class="image"></div>
-                <div class="title">Diseño web</div>
-                <div class="subtitle">Trabajo realizado para consultora y terapeuta asdasdasdasdasdasdasd asdasd asdas de isiaro e tis 'rpdiuctps dogotañe</div>
-            </div>
-            <div class="box2 col-sm-4">
-                <div class="image"></div>
-                <div class="title">Branding coorporativo</div>
-                <div class="subtitle">Trabajo realizado para consultora y terapeuta asdasdasdasdasdasdasd asdasd asdas de isiaro e tis 'rpdiuctps dogotañe</div>
-            </div>
-            <div class="box3 col-sm-4">
-                <div class="image"></div>
-                <div class="title">Caca rellena</div>
-                <div class="subtitle">Trabajo realizado para consultora y terapeuta asdasdasdasdasdasdasd asdasd asdas de isiaro e tis 'rpdiuctps dogotañe</div>
-            </div>
-        </div>
+        <?php get_template_part('template-parts/boxes') ?>
     </div>
     <div class="about container-fluid">
         <div class="inner container">
