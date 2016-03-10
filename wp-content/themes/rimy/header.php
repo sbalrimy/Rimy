@@ -28,7 +28,7 @@
                         <li><a href="#">productos</a> </li>
                         <li><a href="http://127.0.0.1/rimy/desarrollo-y-diseno-web/">portafolio</a></li>
                         <li><a href="#">nosotros</a></li>
-                        <li><a href="#">contacto</a></li>
+                        <li><a href="http://127.0.0.1/rimy/cotizaciones-y-consultas/">contacto</a></li>
                     </ul>
                 </div>
             </div>

@@ -3,6 +3,12 @@
     margin-bottom: 20px;
 }
 
+.page-template header.entry-header h2.entry-title a {
+    color: #ed6448;
+    text-decoration: none;
+    font-weight: 400;
+}
+
 .page-template .entry-title {
     margin-bottom: 40px;
 }
@@ -52,8 +58,6 @@
     font-size: 16px;
 }
 
-.page-template header.entry-header h2.entry-title a {
-    color: #ed6448;
-    text-decoration: none;
-    font-weight: 400;
+.page-template .entry-content .wpcf7-form .form-control {
+    width: 480px;
 }
