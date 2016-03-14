@@ -61,3 +61,12 @@
 .page-template .entry-content .wpcf7-form .form-control {
     width: 480px;
 }
+
+.page-template .entry-content .super-list h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
+}
+
+.page-template .entry-footer {
+    background-color: white;
+}

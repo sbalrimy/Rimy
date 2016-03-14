@@ -1,0 +1,51 @@
+.content .boxes {
+    padding-bottom: 40px;
+}
+
+.content .boxes .boxes-title {
+    margin-top: 80px;
+    margin-bottom: 40px;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: #000000;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.content .boxes .image {
+    background-color: #929292;
+}
+
+.content .boxes .image img {
+    width: 100%;
+    height : auto;
+}
+
+.content .boxes .box-content {
+    min-height: 230px;
+    padding: 15px;
+    background-color: #f8f8f8;
+}
+
+.content .boxes .box-content .inner {
+
+}
+
+.content .boxes .box-content .inner .title {
+    margin-top: 40px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #202020;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.content .boxes .box-content .inner .subtitle {
+    font-size: 13px;
+    font-weight: 300;
+    color: #a5ac9c;
+    text-align: center;
+}

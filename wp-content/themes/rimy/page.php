@@ -36,5 +36,5 @@ get_header(); ?>
     <?php //get_sidebar( 'content-bottom' ); ?>
 
 </div><!-- .content-area -->
-
+<?php get_template_part('template-parts/contact') ?>
 <?php get_footer(); ?>

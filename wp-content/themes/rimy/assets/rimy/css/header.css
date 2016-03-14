@@ -1,6 +1,8 @@
 header.header {
-    background-color: #ed6448;
     margin: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #ed6448;
 }
 
 header.header .inner {
@@ -10,7 +12,6 @@ header.header .inner {
 /* Topbar */
 
 header.header .inner .topbar {
-    height: 100px;
     padding: 15px 0;
 }
 
@@ -21,6 +22,7 @@ header.header .inner .topbar .brand {
 header.header .inner .topbar .brand img {
     height: 60px;
     width: auto;
+    margin-left: 10px;
 }
 
 header.header .inner .topbar .menu {
@@ -35,7 +37,7 @@ header.header .inner .topbar .menu {
 header.header .inner .topbar .menu li {
     display: inline-block;
     color: white;
-    font-weight: 300;
+    font-weight: 500;
     list-style: none;
 }
 
@@ -43,7 +45,8 @@ header.header .inner .topbar .menu li:hover {
     background-color: rgba(184, 92, 71, 1);
 }
 
-header.header .inner .topbar .menu li a {
+header.header .inner .topbar .menu li a,
+header.header .inner .topbar .menu li span {
     display: block;
     padding-left: 15px;
     padding-right: 15px;

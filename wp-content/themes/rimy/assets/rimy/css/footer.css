@@ -1,0 +1,36 @@
+footer {
+    background-color: #1a1a1a;
+    padding: 50px 0;
+}
+
+footer .footer-box {
+
+}
+
+footer .footer-box h4 {
+    color: white;
+}
+
+footer .footer-box a,
+footer .footer-box a:link,
+footer .footer-box a:visited,
+footer .footer-box a:active,
+footer .footer-box a:hover,
+footer .footer-box ul li {
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+footer .footer-box a,
+footer .footer-box a:link,
+footer .footer-box a:visited,
+footer .footer-box a:active,
+footer .footer-box ul li,
+footer .footer-box .fa {
+    color: #ddd;
+}
+
+footer .footer-box a:hover {
+    color: #aaa;
+}

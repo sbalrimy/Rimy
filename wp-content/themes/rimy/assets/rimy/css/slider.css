@@ -1,23 +1,34 @@
 .slider {
-    padding-top: 90px;
-    padding-bottom: 150px;
+    padding-top: 80px;
+    padding-bottom: 220px;
+    color: white;
     background-color: #ed6448;
+    text-align: center;
 }
 
 .slider .title {
     font-size: 36px;
     font-weight: 500;
     letter-spacing: 3px;
-    color: white;
-    text-align: center;
     text-transform: uppercase;
 }
 
+.slider .title .inner {
+    margin: 0 auto;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    min-width: 520px;
+    max-width: 700px;
+}
 
 .slider .subtitle {
-    margin-top: 15px;
+    margin-top: 30px;
     font-size: 14px;
     font-weight: 300;
-    color: white;
-    text-align: center;
+}
+
+.slider .subtitle .inner {
+    margin: 0 auto;
+    min-width: 520px;
+    max-width: 700px;
 }

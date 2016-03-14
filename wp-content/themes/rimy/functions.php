@@ -35,9 +35,16 @@ function rimy_load_lib () {
     if ( in_array( 'fontawesome', $libs ) ) {
         rimy_header_tag( 'css', ASSETS_LIB_URL . 'css/font-awesome.css' );
     }
+    if ( in_array( 'scrollto', $libs ) ) {
+        rimy_header_tag( 'js', ASSETS_LIB_URL . 'js/jquery.scrollTo.min.js' );
+    }
 
 }
 
+
+/**
+ * Creates the breadcrumb
+ */
 function the_breadcrumb () {
     if (!is_home()) {
         echo '<div class="container-fluid breadcrumb-row"><ol class="breadcrumb container">';
@@ -59,6 +66,16 @@ function the_breadcrumb () {
         echo '</ol></div>';
     }
 }
+
+
+/**
+ * Register navigation menu
+ */
+function rimy_register_nav_menu() {
+    register_nav_menu('main',__( 'Header Menu' ));
+}
+add_action( 'init', 'rimy_register_nav_menu' );
+
 
 
 
