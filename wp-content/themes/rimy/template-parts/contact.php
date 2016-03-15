@@ -7,14 +7,15 @@
                             <div class="title">Mantengamos el contacto!</div>
                             <div class="subtitle">¿Te gustó nuestro trabajo? No dudes en contactarnos!<br>Estaremos encantados de ayudarte.</div>
                             <div class="form">
-                                <form>
-                                    <input type="text" class="form-control" placeholder="Tu nombre">
+                                <form method="post">
+                                    <input type="hidden" name="submit" value="1">
+                                    <input name="name" type="text" class="form-control" placeholder="Tu nombre">
                                     <div class="space-5"></div>
-                                    <input type="text" class="form-control" placeholder="Correo electrónico">
+                                    <input name="email" type="text" class="form-control" placeholder="Correo electrónico">
                                     <div class="space-5"></div>
-                                    <textarea class="form-control" rows="6"></textarea>
+                                    <textarea name="message" class="form-control" rows="6"></textarea>
                                     <div class="space-5"></div>
-                                    <a href="#" role="button" class="btn btn-loco">ENVIAR</a>
+                                    <button type="submit" role="button" class="btn btn-loco">ENVIAR</button>
                                     <div class="space-30"></div>
                                 </form>
                             </div>

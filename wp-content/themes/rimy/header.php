@@ -1,3 +1,22 @@
+<?php
+if(isset($_POST['submit'])){
+
+    $message = "El siguiente mensaje fue recibido desde la página YMIR.CL:\n\n";
+    $message .= 'NOMBRE: ' . $_POST['name'] . "\n";
+    $message .= 'CORREO: ' . $_POST['email'] . "\n\n";
+    $message .= "MENSAJE:\n" . $_POST['message'] . "\n\n";
+    if ( wp_mail( 'contacto@ymir.cl', 'Contacto desde YMIR.CL', $message ) ) {
+        header ('Location: http://ymir.cl/contacto-recibido/');
+    } else {
+        echo "FAIL";
+    }
+
+
+    // You can also use header('Location: thank_you.php'); to redirect to another page.
+
+
+}
+?>
 <html>
 <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>">
