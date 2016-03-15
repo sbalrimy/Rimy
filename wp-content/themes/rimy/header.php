@@ -1,22 +1,3 @@
-<?php
-if(isset($_POST['submit'])){
-
-    $message = "El siguiente mensaje fue recibido desde la página YMIR.CL:\n\n";
-    $message .= 'NOMBRE: ' . $_POST['name'] . "\n";
-    $message .= 'CORREO: ' . $_POST['email'] . "\n\n";
-    $message .= "MENSAJE:\n" . $_POST['message'] . "\n\n";
-    if ( wp_mail( 'contacto@ymir.cl', 'Contacto desde YMIR.CL', $message ) ) {
-        header ('Location: http://ymir.cl/contacto-recibido/');
-    } else {
-        echo "FAIL";
-    }
-
-
-    // You can also use header('Location: thank_you.php'); to redirect to another page.
-
-
-}
-?>
 <html>
 <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>">
@@ -53,6 +34,19 @@ if(isset($_POST['submit'])){
             $('.scrollto-link').click( function() {
                 var id = $(this).attr('title');
                 $(window).scrollTo('#'+id, 800, { queue:true });
+            });
+
+            $('body').append('<div id="toTop" class="btn-ymir btn-ymir-black"><i class="fa fa-arrow-up"></i>Volver arriba</div>');
+            $(window).scroll(function () {
+                if ($(this).scrollTop() != 0) {
+                    $('#toTop').fadeIn();
+                } else {
+                    $('#toTop').fadeOut();
+                }
+            });
+            $('#toTop').click(function(){
+                $("html, body").animate({ scrollTop: 0 }, 600);
+                return false;
             });
 
         });

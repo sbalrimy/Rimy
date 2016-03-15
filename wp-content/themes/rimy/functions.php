@@ -79,7 +79,6 @@ add_action( 'init', 'rimy_register_nav_menu' );
 
 
 
-
         /**
  * Adds the individual sections, settings, and controls to the theme customizer
  */

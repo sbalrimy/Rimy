@@ -96,16 +96,34 @@ fieldset[disabled] .btn-loco.active {
 .btn-ymir:active {
     padding: 15px 20px;
     font-size: 16px;
-    background-color: #ec6448;
-    color: #fcfcfc;
     text-transform: uppercase;
 }
 
-.btn-ymir:hover {
+.btn-ymir-main,
+.btn-ymir-main:visited,
+.btn-ymir-main:link,
+.btn-ymir-main:focus,
+.btn-ymir-main:active {
+    background-color: #ec6448;
+    color: #fcfcfc;
+}
+.btn-ymir-main:hover {
     background-color: #b85438;
     color: #fcfcfc;
 }
 
+.btn-ymir-black,
+.btn-ymir-black:visited,
+.btn-ymir-black:link,
+.btn-ymir-black:focus,
+.btn-ymir-black:active {
+    background-color: #2b2b2b;
+    color: #fcfcfc;
+}
+.btn-ymir-black:hover {
+    background-color: #141414;
+    color: #fcfcfc;
+}
 
 /* - - - CONTENT - - - - - - - - - - */
 
@@ -113,10 +131,12 @@ fieldset[disabled] .btn-loco.active {
     margin-top: 5px;
 }
 
-
-
-/* About us */
-
-
-
+#toTop{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#toTop .fa {margin-right: 5px;}
 /* Last line

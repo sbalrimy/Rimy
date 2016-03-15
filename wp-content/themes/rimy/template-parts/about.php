@@ -13,7 +13,7 @@
                 </div>
             </div>
             <div class="button-row col-sm-12">
-                <a href="#" class="btn-ymir" role="button">Nuestro equipo</a>
+                <a href="http://ymir.cl/nosotros/" class="btn-ymir btn-ymir-main" role="button">Nuestro equipo</a>
             </div>
         </div>
     </div>
