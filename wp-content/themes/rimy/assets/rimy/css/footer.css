@@ -1,36 +1,70 @@
-footer {
-    background-color: #1a1a1a;
-    padding: 50px 0;
+.footer {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Condensed", sans-serif;
 }
 
-footer .footer-box {
+.footer .fa,
+.footer .network span {
+    vertical-align: middle;
 
 }
 
-footer .footer-box h4 {
-    color: white;
+.footer .network .fa-stack i.fa-circle {
+    color: #fcfcfc;
+    font-size: 40px;
 }
 
-footer .footer-box a,
-footer .footer-box a:link,
-footer .footer-box a:visited,
-footer .footer-box a:active,
-footer .footer-box a:hover,
-footer .footer-box ul li {
-    text-decoration: none;
-    font-weight: 300;
+.footer .network .fa-stack i.social {
+    color: #6d6d6d;
+    font-size: 20px;
+    line-height: 42px;
+}
+
+.footer .network {
+    display: inline-block;
+    line-height: 48px;
+}
+
+.footer .contact,
+.footer .navigation {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.footer .contact {
+    color: #fcfcfc;
+    background-color: #6d6d6d;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.footer .navigation {
+    background-color: #464646;
+}
+
+.footer .nav-links {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.footer .nav-links li {
+    display: inline-block;
+    color: #a3a3a3;
     font-size: 14px;
+    line-height: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
-footer .footer-box a,
-footer .footer-box a:link,
-footer .footer-box a:visited,
-footer .footer-box a:active,
-footer .footer-box ul li,
-footer .footer-box .fa {
-    color: #ddd;
+.footer .nav-links li a,
+.footer .nav-links li a:visited,
+.footer .nav-links li a:active,
+.footer .nav-links li a:link {
+    color: #a3a3a3;
+    text-decoration: none;
 }
 
-footer .footer-box a:hover {
-    color: #aaa;
+.footer .nav-links li a:hover {
+    color: #ededed;
 }

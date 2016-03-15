@@ -1,4 +1,12 @@
         <?php rimy_header_tag( 'css', ASSETS_CSS_URL . 'contact.css' ) ?>
+
+        <script>
+            $(document).ready( function () {
+                $('.alert').hide();
+            });
+
+        </script>
+
         <div id="contact" class="contact container-fluid">
             <div class="row">
                 <div class="inner container">
@@ -6,6 +14,7 @@
                         <div class="col-sm-offset-3 col-sm-6">
                             <div class="title">Mantengamos el contacto!</div>
                             <div class="subtitle">¿Te gustó nuestro trabajo? No dudes en contactarnos!<br>Estaremos encantados de ayudarte.</div>
+                            <div class="alert alert-danger" role="alert" >Mensaje de error</div>
                             <div class="form">
                                 <form method="post">
                                     <input type="hidden" name="submit" value="1">

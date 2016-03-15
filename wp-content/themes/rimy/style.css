@@ -79,6 +79,34 @@ fieldset[disabled] .btn-loco.active {
     background-color: #FFFFFF;
 }
 
+.btn-ymir,
+.btn-ymir:visited,
+.btn-ymir:link,
+.btn-ymir:active,
+.btn-ymir:focus,
+.btn-ymir:hover {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.btn-ymir,
+.btn-ymir:visited,
+.btn-ymir:link,
+.btn-ymir:focus,
+.btn-ymir:active {
+    padding: 15px 20px;
+    font-size: 16px;
+    background-color: #ec6448;
+    color: #fcfcfc;
+    text-transform: uppercase;
+}
+
+.btn-ymir:hover {
+    background-color: #b85438;
+    color: #fcfcfc;
+}
+
+
 /* - - - CONTENT - - - - - - - - - - */
 
 .content {
@@ -89,28 +117,6 @@ fieldset[disabled] .btn-loco.active {
 
 /* About us */
 
-.about {
-    background-color: #f9f9f9;
-    padding-top: 80px;
-    padding-bottom: 100px;
-}
 
-.about .inner .title {
-    margin-top: 0;
-    margin-bottom: 40px;
-    font-size: 28px;
-    font-weight: 700;
-    letter-spacing: 3px;
-    color: #000000;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-.about .inner .subtitle {
-    font-size: 14px;
-    font-weight: 300;
-    color: #909090;
-    text-align: center;
-}
 
 /* Last line
