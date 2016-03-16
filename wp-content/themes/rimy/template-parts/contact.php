@@ -1,7 +1,7 @@
 <?php
 
 get_template_part('inc/recaptchalib');
-$secret = "6LclHhoTAAAAAHEMz9oAd9MDwymPGgScMN7Zu_8n";
+$secret = "6LdL7xoTAAAAAAyP8JSCMXoMxYNrXtZ4GLLZamUV";
 $response = null;
 $reCaptcha = new ReCaptcha($secret);
 if ($_POST["g-recaptcha-response"]) {
@@ -33,7 +33,7 @@ if(isset($_POST['submit'])){
         if ( wp_mail( 'contacto@ymir.cl', 'Contacto desde YMIR.CL', $message ) ) {
             header ('Location: http://ymir.cl/contacto-recibido/');
         } else {
-            echo "FAIL";
+            $err = 'Algo salioó mal, que raro';
         }
     }
 }
@@ -60,7 +60,7 @@ if(isset($_POST['submit'])){
                                     <div class="space-5"></div>
                                     <textarea name="message" class="form-control" rows="6"><?php echo empty($_POST['message'])? '': $_POST['message'] ?></textarea>
                                     <div class="space-5"></div>
-                                    <div class="g-recaptcha" data-sitekey="6LclHhoTAAAAAIuErcRMC6E-hdjZUmoq0tEw2KRS"></div>
+                                    <div class="g-recaptcha" data-sitekey="6LdL7xoTAAAAAO30fD3NY4m2V7RyaUKvSD44rH32"></div>
                                     <div class="space-5"></div>
                                     <button type="submit" role="button" class="btn btn-loco">ENVIAR</button>
                                     <div class="space-30"></div>
