@@ -9,23 +9,75 @@ header.header .inner {
     margin: 0 auto;
 }
 
-/* Topbar */
+/* navbar */
 
-header.header .inner .topbar {
+header.header .navbar {
     padding: 15px 0;
+    background-color: transparent;
+    border: none;
 }
 
-header.header .inner .topbar .brand {
-    float: left;
+header.header .navbar #menu-main {
+    margin-top: 20px;
+    float: right;
 }
 
-header.header .inner .topbar .brand img {
+header.header .navbar #menu-main li a {
+    display: block;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+header.header .navbar #menu-main li a,
+header.header .navbar #menu-main li span {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+
+}
+
+header.header .navbar #menu-main li.active a {
+    color: #a8543a
+}
+
+header.header .navbar #menu-main li.open a {
+    color: black;
+}
+
+header.header .navbar-header .navbar-brand {
+    height: auto;
+}
+
+header.header .navbar-header .navbar-brand img {
     height: 60px;
     width: auto;
     margin-left: 10px;
 }
 
-header.header .inner .topbar .menu {
+header.header .inner .navbar #menu-main li:hover {
+    background-color: rgba(184, 92, 71, 1);
+}
+
+header.header #menu-main .dropdown-menu li a {
+    color: black;
+}
+
+/*
+
+
+
+
+
+header.header .inner .navbar .brand {
+    float: left;
+}
+
+header.header .inner .navbar .brand img {
+
+}
+
+header.header .inner .navbar .menu {
     float: right;
     font-size: 18px;
     text-transform: uppercase;
@@ -34,27 +86,27 @@ header.header .inner .topbar .menu {
     line-height: 60px;
 }
 
-header.header .inner .topbar .menu li {
+header.header .inner .navbar .menu li {
     display: inline-block;
     color: white;
     font-weight: 500;
     list-style: none;
 }
 
-header.header .inner .topbar .menu li:hover {
+header.header .inner .navbar .menu li:hover {
     background-color: rgba(184, 92, 71, 1);
 }
 
-header.header .inner .topbar .menu li a,
-header.header .inner .topbar .menu li span {
-    display: block;
-    padding-left: 15px;
-    padding-right: 15px;
-    text-decoration: none;
-    color: white;
-    width: 100%;
-    height: 100%;
+header.header .inner .navbar .menu .sub-menu {
+    position: absolute;
+    padding: 0;
 }
+
+header.header .inner .navbar .menu .sub-menu li {
+    display: block;
+}
+
+*/
 
 .breadcrumb-row {
     background-color: rgba(244, 244, 244, 1);

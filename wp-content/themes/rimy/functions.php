@@ -2,6 +2,12 @@
 
 include_once 'inc/constants.php';
 
+// NAV MENU
+require_once 'inc/wp_bootstrap_navwalker.php';
+register_nav_menus( array(
+    'primary' => __( 'Header Menu', 'main' ),
+) );
+
 /**
  * Generates a single header tag.
  *

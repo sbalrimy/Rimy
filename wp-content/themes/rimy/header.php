@@ -68,11 +68,18 @@
 <div id="wrap">
     <header class="header container-fluid">
         <div class="inner container">
-            <div class="topbar row">
-                <div class="brand">
-                    <a href="<?php echo home_url() ?>"><img src="<?= ASSETS_IMG_URL ?>logo.png" alt="" /></a>
-                </div>
-            <?php wp_nav_menu( array( 'Header Menu' => 'main' ) ); ?>
-            </div>
+            <?php //wp_nav_menu( array( 'Header Menu' => 'main' ) ); ?>
+            <?php get_template_part('template-parts/pieces/navmenu') ?>
+        </div>
     </header>
+    <script>
+
+        $(document).ready( function() {
+            $('.sub-menu').hide();
+            $('.menu-item').hover( function () {
+                $(this).children().find('ul').show();
+            });
+        });
+
+    </script>
     <?php the_breadcrumb() ?>
