@@ -133,10 +133,17 @@ fieldset[disabled] .btn-loco.active {
 
 #toTop{
     position: fixed;
-    bottom: 40px;
-    right: 40px;
+    bottom: 20px;
+    right: 20px;
+    opacity: .4;
     cursor: pointer;
     display: none;
+    -webkit-transition: opacity 0.3s ease; /* Safari */
+    transition: opacity 0.3s ease;
 }
-#toTop .fa {margin-right: 5px;}
+
+#toTop:hover {
+    opacity: .7;
+}
+
 /* Last line

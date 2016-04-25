@@ -24,6 +24,7 @@
 .footer .network {
     display: inline-block;
     line-height: 48px;
+    text-align: center;
 }
 
 .footer .contact,

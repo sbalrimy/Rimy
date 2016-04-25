@@ -36,7 +36,7 @@
                 $(window).scrollTo('#'+id, 800, { queue:true });
             });
 
-            $('body').append('<div id="toTop" class="btn-ymir btn-ymir-black"><i class="fa fa-arrow-up"></i>Volver arriba</div>');
+            $('body').append('<div id="toTop" class="btn-ymir btn-ymir-black"><i class="fa fa-arrow-up"></i></div>');
             $(window).scroll(function () {
                 if ($(this).scrollTop() != 0) {
                     $('#toTop').fadeIn();

@@ -19,7 +19,6 @@ header.header .navbar {
 
 header.header .navbar #menu-main {
     margin-top: 20px;
-    float: right;
 }
 
 header.header .navbar #menu-main li a {
@@ -63,50 +62,7 @@ header.header #menu-main .dropdown-menu li a {
     color: black;
 }
 
-/*
-
-
-
-
-
-header.header .inner .navbar .brand {
-    float: left;
-}
-
-header.header .inner .navbar .brand img {
-
-}
-
-header.header .inner .navbar .menu {
-    float: right;
-    font-size: 18px;
-    text-transform: uppercase;
-    height: 60px;
-    margin: 0;
-    line-height: 60px;
-}
-
-header.header .inner .navbar .menu li {
-    display: inline-block;
-    color: white;
-    font-weight: 500;
-    list-style: none;
-}
-
-header.header .inner .navbar .menu li:hover {
-    background-color: rgba(184, 92, 71, 1);
-}
-
-header.header .inner .navbar .menu .sub-menu {
-    position: absolute;
-    padding: 0;
-}
-
-header.header .inner .navbar .menu .sub-menu li {
-    display: block;
-}
-
-*/
+/* Breadcrumb */
 
 .breadcrumb-row {
     background-color: rgba(244, 244, 244, 1);

@@ -3,17 +3,17 @@
     <div class="contact">
         <div class="inner container">
             <div class="row">
-                <div class="network col-sm-offset-2 col-sm-2">
+                <div class="network col-xs-6 col-sm-4 col-md-3 col-lg-2 col-lg-offset-2">
                     <span><i class="fa fa-whatsapp fa-lg"></i> +569 6396 2257</span>
                 </div>
-                <div class="network col-sm-2">
+                <div class="network col-xs-6 col-sm-4 col-md-3 col-lg-2">
                     <i class="fa fa-envelope-o fa-lg"></i>
                     <img src="<?php echo ASSETS_IMG_URL . 'contact-mail.png' ?>">
                 </div>
-                <div class="network col-sm-2">
+                <div class="network col-xs-6 col-sm-4 col-md-3 col-lg-2">
                     <i class="fa fa-map-marker fa-lg"></i> Concepción, Chile
                 </div>
-                <div class="network col-sm-2">
+                <div class="network col-xs-6 col-sm-12 col-md-3 col-lg-2">
                     <span class="fa-stack fa-lg">
                         <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
                         <i class="fa fa-facebook fa-stack-1x social"></i>

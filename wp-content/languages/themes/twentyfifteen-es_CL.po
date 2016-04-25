@@ -7,7 +7,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/1.0-alpha-1100\n"
+"X-Generator: GlotPress/2.0.0\n"
 "Project-Id-Version: Twenty Fifteen\n"
 
 #. translators: %s: post title
@@ -27,7 +27,7 @@ msgstr "Entrada siguiente:"
 msgid "Previous post:"
 msgstr "Entrada anterior:"
 
-#: inc/customizer.php:47 inc/customizer.php:63 inc/customizer.php:68
+#: inc/customizer.php:60 inc/customizer.php:76 inc/customizer.php:81
 msgid "Applied to the header on small screens and the sidebar on wide screens."
 msgstr "Aplicado a la cabecera de pantallas pequeñas y en la barra lateral de pantallas anchas."
 
@@ -39,7 +39,7 @@ msgstr "Anterior"
 msgid "Next"
 msgstr "Siguiente"
 
-#: inc/customizer.php:157
+#: inc/customizer.php:194
 msgid "Purple"
 msgstr "Púrpura"
 
@@ -99,15 +99,15 @@ msgstr "Comentarios recientes"
 msgid "Featured"
 msgstr "Destacado"
 
-#: inc/customizer.php:31
+#: inc/customizer.php:44
 msgid "Base Color Scheme"
 msgstr "Esquema base de colores"
 
-#: inc/customizer.php:46
+#: inc/customizer.php:59
 msgid "Header and Sidebar Text Color"
 msgstr "Color de texto de Cabecera y Barra Lateral"
 
-#: inc/customizer.php:62
+#: inc/customizer.php:75
 msgid "Header and Sidebar Background Color"
 msgstr "Color de fondo de Cabecera y Barra Lateral"
 
@@ -115,7 +115,7 @@ msgstr "Color de fondo de Cabecera y Barra Lateral"
 msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
 msgstr "Twenty Fifteen requiere versiones de WordPress superiores a la 4.1. Ahora estás utilizando la versión %s. Actualiza e intentalo nuevamente."
 
-#: header.php:43
+#: header.php:45
 msgid "Menu and widgets"
 msgstr "Menú y widgets"
 
@@ -143,23 +143,23 @@ msgctxt "Used before post format."
 msgid "Format"
 msgstr "Formato "
 
-#: inc/customizer.php:168
+#: inc/customizer.php:205
 msgid "Blue"
 msgstr "Azul"
 
-#: inc/customizer.php:146
+#: inc/customizer.php:183
 msgid "Pink"
 msgstr "Rosado"
 
-#: inc/customizer.php:124
+#: inc/customizer.php:161
 msgid "Dark"
 msgstr "Oscuro"
 
-#: inc/customizer.php:135
+#: inc/customizer.php:172
 msgid "Yellow"
 msgstr "Amarillo"
 
-#: inc/customizer.php:113
+#: inc/customizer.php:150
 msgid "Default"
 msgstr "Por Defecto"
 
@@ -192,18 +192,18 @@ msgstr "¿Listo para publicar tu primera entrada? <a href=\"%1$s\">Comienza aqu�
 msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
 msgstr "Lo siento, pero no encontramos resultados con tus términos de búsqueda. Por favor inténtalo nuevamente con otras palabras."
 
-#: functions.php:255
+#: functions.php:269
 msgid "expand child menu"
 msgstr "expandir menú hijo"
 
-#: functions.php:256
+#: functions.php:270
 msgid "collapse child menu"
 msgstr "retraer menú hijo"
 
 #. Translators: To add an additional character subset specific to your
 #. language, translate this to 'greek', 'cyrillic', 'devanagari' or
 #. 'vietnamese'. Do not translate into your own language.
-#: functions.php:185
+#: functions.php:199
 msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
 msgid "no-subset"
 msgstr "sin subset"
@@ -211,7 +211,7 @@ msgstr "sin subset"
 #. Translators: If there are characters in your language that are not supported
 #. by Inconsolata, translate this to 'off'. Do not translate into your own
 #. language.
-#: functions.php:177
+#: functions.php:191
 msgctxt "Inconsolata font: on or off"
 msgid "on"
 msgstr "activo"
@@ -219,7 +219,7 @@ msgstr "activo"
 #. Translators: If there are characters in your language that are not supported
 #. by Noto Sans, translate this to 'off'. Do not translate into your own
 #. language.
-#: functions.php:161
+#: functions.php:175
 msgctxt "Noto Sans font: on or off"
 msgid "on"
 msgstr "activo"
@@ -227,12 +227,12 @@ msgstr "activo"
 #. Translators: If there are characters in your language that are not supported
 #. by Noto Serif, translate this to 'off'. Do not translate into your own
 #. language.
-#: functions.php:169
+#: functions.php:183
 msgctxt "Noto Serif font: on or off"
 msgid "on"
 msgstr "activo"
 
-#: functions.php:135
+#: functions.php:149
 msgid "Add widgets here to appear in your sidebar."
 msgstr "Agrega widgets aquí para que aparezcan en tu barra lateral."
 
@@ -264,11 +264,11 @@ msgstr[1] "%1$s opiniones en &ldquo;%2$s&rdquo;"
 msgid "Continue reading %s"
 msgstr "Continuar leyendo %s"
 
-#: functions.php:133
+#: functions.php:147
 msgid "Widget Area"
 msgstr "Área de Widgets"
 
-#. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.4)  #-#-#-#-#
+#. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.5)  #-#-#-#-#
 #. Author URI of the plugin/theme
 #: footer.php:25
 msgid "https://wordpress.org/"
