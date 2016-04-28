@@ -3,12 +3,13 @@
     margin-bottom: 20px;
 }
 
-.page-template header.entry-header h2.entry-title a {
+.page-template header.entry-header h2.entry-title {
     color: #000000;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 26px;
     font-weight: 600;
+    letter-spacing: 3px;
 }
 
 .page-template .entry-title {
@@ -73,4 +74,138 @@
 
 .page-template .entry-footer {
     background-color: white;
+}
+
+/* SERVICIOS */
+
+.page-template .entry-content .navrow {
+    margin-bottom: 100px;
+}
+
+.page-template .entry-content .category {
+    background-color: #ee6549;
+    padding: 10px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.page-template .entry-content h5 {
+    margin-bottom: 50px;
+    text-align: center;
+    color: #6f6f6f;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.page-template .service-row {
+    margin-top: 80px;
+}
+
+.page-template .service-row .title {
+    margin-bottom: 40px;
+    padding: 10px;
+    color: #ededed;
+    background-color: #6c6c6c;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.page-template .service-row .lines .inner{
+    height: 60px;
+    margin-top: 15px;
+    border-top: dotted 4px #ee6549;
+    border-left: dotted 4px #ee6549;
+    border-bottom: dotted 4px #ee6549;
+}
+
+.page-template .service-row .service {
+    height: 380px;
+    margin-bottom: 20px;
+}
+
+.color-gray {
+    color: #6f6f6f;
+}
+
+.color-main {
+    color: #ee6549;
+}
+
+.page-template .service-row .description .subtitle {
+    font-family: "Roboto Condensed", sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 18px;
+}
+
+.page-template .service-row .description .details {
+    margin-top: 20px;
+    padding: 0;
+    min-height: 80px;
+    list-style: none;
+}
+
+.page-template .service-row .description ul.details li {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14px;
+    text-transform: uppercase;
+}
+
+.page-template .service-row .items {
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.page-template .service-row .items .item .fa {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.page-template .service-row .item {
+    margin-bottom: 5px;
+}
+
+.page-template .service-row .item-box {
+    background-color: #fafafa;
+    display: inline-block;
+    padding-bottom: 20px;
+}
+
+.page-template .file .inner {
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.page-template .file .inner a,
+.page-template .file .inner a:link,
+.page-template .file .inner a:visited,
+.page-template .file .inner a:active,
+.page-template .file .inner a:focus {
+    color: #ee6549;
+    text-decoration: none;
+}
+
+.page-template .file .inner a:hover {
+    color: #d24a35;
+}
+
+.page-template .file .fa-file-o {
+    font-size: 30px;
+}
+
+.page-template ul.note-list li {
+    font-size: 14px;
 }

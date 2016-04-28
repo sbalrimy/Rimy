@@ -41,17 +41,17 @@ if(isset($_POST['submit'])){
 
 <?php rimy_header_tag( 'css', ASSETS_CSS_URL . 'contact.css' ) ?>
 <script src='https://www.google.com/recaptcha/api.js?hl=es'></script>
-        <div id="contact" class="contact container-fluid">
+        <div class="contact container-fluid" id="contact-target">
             <div class="row">
                 <div class="inner container">
                     <div class="row">
                         <div class="col-sm-offset-3 col-sm-6">
-                            <div class="title">Mantengamos el contacto!</div>
+                            <div class="title">Cotiza con nosotros</div>
                             <div class="subtitle">¿Te gustó nuestro trabajo? No dudes en contactarnos!<br>Estaremos encantados de ayudarte.</div>
                             <?php if ( $err != '' ): ?>
                             <div class="alert alert-danger" role="alert" ><?php echo $err ?></div>
                             <?php endif; ?>
-                            <div class="form">
+                            <div class="form" style="text-align: center">
                                 <form method="post" action="<?php echo $_SERVER["REQUEST_URI"] . '#contact' ?>">
                                     <input type="hidden" name="submit" value="1">
                                     <input name="name" type="text" class="form-control" placeholder="Tu nombre"<?php echo empty($_POST['name'])? '': ' value="' . $_POST['name'] . '"' ?>>
@@ -60,10 +60,9 @@ if(isset($_POST['submit'])){
                                     <div class="space-5"></div>
                                     <textarea name="message" class="form-control" rows="6"><?php echo empty($_POST['message'])? '': $_POST['message'] ?></textarea>
                                     <div class="space-5"></div>
-                                    <div class="g-recaptcha" data-sitekey="6LdL7xoTAAAAAO30fD3NY4m2V7RyaUKvSD44rH32"></div>
+                                    <div class="g-recaptcha" data-sitekey="6LdL7xoTAAAAAO30fD3NY4m2V7RyaUKvSD44rH32" style="text-align: -webkit-center;"></div>
                                     <div class="space-5"></div>
-                                    <button type="submit" role="button" class="btn btn-loco">ENVIAR</button>
-                                    <div class="space-30"></div>
+                                    <button type="submit" role="button" class="btn btn-loco" style="width: 304px;">ENVIAR</button>
                                 </form>
                             </div>
                         </div>

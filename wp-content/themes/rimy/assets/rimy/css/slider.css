@@ -9,16 +9,17 @@
 .slider .title {
     font-size: 36px;
     font-weight: 500;
+    line-height: 40px;
     letter-spacing: 3px;
     text-transform: uppercase;
 }
 
 .slider .title .inner {
     margin: 0 auto;
-    border-left: 2px solid white;
-    border-right: 2px solid white;
+    border-left: 4px solid white;
+    border-right: 4px solid white;
     min-width: 520px;
-    max-width: 700px;
+    max-width: 600px;
 }
 
 .slider .subtitle {

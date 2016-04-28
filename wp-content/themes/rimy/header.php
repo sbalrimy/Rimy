@@ -27,8 +27,7 @@
         $(document).ready(function() {
 
             $('.scrollto-link-menu').click( function() {
-                var id = $(this).children().first().attr('title');
-                $(window).scrollTo('#'+id, 800, { queue:true });
+                $(window).scrollTo('#contact-target', 800, { queue:true });
             });
 
             $('.scrollto-link').click( function() {

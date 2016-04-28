@@ -62,6 +62,11 @@ header.header #menu-main .dropdown-menu li a {
     color: black;
 }
 
+header.header #menu-main .dropdown-menu li.active a {
+    background-color: #b75c47;
+    color: #fdfdfd;
+}
+
 /* Breadcrumb */
 
 .breadcrumb-row {
