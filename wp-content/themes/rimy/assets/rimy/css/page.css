@@ -209,3 +209,12 @@
 .page-template ul.note-list li {
     font-size: 14px;
 }
+
+.page-template .nosotros-gatopato {
+    text-align: right;
+    font-style: italic;
+    font-size: 12px;
+    margin-top: 5px;
+    font-family: Roboto, sans-serif;
+    color: #545454;
+}
